@@ -1,0 +1,2 @@
+# Incorrect useState Hook Update
+This example demonstrates a common mistake when using the `useState` hook in React functional components. The issue arises from directly using the previous state value (`count`) within the `setCount` function. This can lead to unexpected behavior or prevent the component from re-rendering with the updated state. The solution showcases the proper way to utilize `setCount` using a functional update.
